@@ -1,8 +1,7 @@
-Android ViewPagerIndicator
-==========================
+Android ViewPagerIndicator with Icon Only Tabs
+===============================================
 
-Paging indicator widgets that are compatible with the `ViewPager` from the
-[Android Support Library][2] to improve discoverability of content.
+Added *Icon Only Tabs* for [ViewPagerIndicator][12] by `Jake Wharton`.
 
 ![ViewPagerIndicator Icon Only Sample Screenshot][11]
 
@@ -20,6 +19,13 @@ Icon Only Usage
         } 
 
 -----------------------------------------------------------------------------------
+
+Android ViewPagerIndicator
+==========================
+
+Paging indicator widgets that are compatible with the `ViewPager` from the
+[Android Support Library][2] to improve discoverability of content.
+
 
 Try out the sample application [on the Android Market][10].
 
@@ -156,3 +162,4 @@ License
  [9]: https://raw.github.com/JakeWharton/Android-ViewPagerIndicator/master/sample/screens.png
  [10]: https://play.google.com/store/apps/details?id=com.viewpagerindicator.sample
  [11]: https://raw.github.com/JafarKhQ/Android-ViewPagerIndicator/master/sample/icon_only.png
+ [12]: https://github.com/JakeWharton/Android-ViewPagerIndicator
