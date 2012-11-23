@@ -7,7 +7,7 @@ Paging indicator widgets that are compatible with the `ViewPager` from the
 ![ViewPagerIndicator Icon Only Sample Screenshot][11]
 
 Icon Only Usage
-=====
+===============
 
 *For a working implementation see `SampleTabsIconsOnly.java` in `sample/` folder.*
 

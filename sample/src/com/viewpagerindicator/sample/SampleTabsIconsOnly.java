@@ -22,7 +22,7 @@ public class SampleTabsIconsOnly extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.simple_tabs);
 
-		FragmentPagerAdapter adapter = new GoogleMusicAdapter(
+		FragmentPagerAdapter adapter = new LazyAdapter(
 				getSupportFragmentManager());
 
 		ViewPager pager = (ViewPager) findViewById(R.id.pager);
@@ -32,9 +32,9 @@ public class SampleTabsIconsOnly extends FragmentActivity {
 		indicator.setViewPager(pager);
 	}
 
-	class GoogleMusicAdapter extends FragmentPagerAdapter implements
+	private class LazyAdapter extends FragmentPagerAdapter implements
 			IconPagerAdapter {
-		public GoogleMusicAdapter(FragmentManager fm) {
+		public LazyAdapter(FragmentManager fm) {
 			super(fm);
 		}
 

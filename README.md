@@ -19,6 +19,7 @@ Icon Only Usage
            return null;
         } 
 
+-----------------------------------------------------------------------------------
 
 Try out the sample application [on the Android Market][10].
 
