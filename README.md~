@@ -4,7 +4,20 @@ Android ViewPagerIndicator
 Paging indicator widgets that are compatible with the `ViewPager` from the
 [Android Support Library][2] to improve discoverability of content.
 
-![ViewPagerIndicator Sample Screenshots][11]
+![ViewPagerIndicator Icon Only Sample Screenshot][11]
+
+Icon Only Usage
+=====
+
+*For a working implementation see `SampleTabsIconsOnly.java` in `sample/` folder.*
+
+  1. Implements `IconPagerAdapter`.
+  2. Return `null` OR empty string in `getPageTitle` function.
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+           return null;
+        } 
 
 
 Try out the sample application [on the Android Market][10].
@@ -141,4 +154,4 @@ License
  [8]: http://developer.android.com/guide/developing/projects/projects-eclipse.html#ReferencingLibraryProject
  [9]: https://raw.github.com/JakeWharton/Android-ViewPagerIndicator/master/sample/screens.png
  [10]: https://play.google.com/store/apps/details?id=com.viewpagerindicator.sample
- [11]: https://raw.github.com/JakeWharton/Android-ViewPagerIndicator/master/sample/icon_only.png
+ [11]: https://raw.github.com/JafarKhQ/Android-ViewPagerIndicator/master/sample/icon_only.png
